@@ -1,0 +1,184 @@
+:root {
+    background-color: aliceblue;
+    font-size: 10px;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    height: 100vh;
+    margin: 2rem auto;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.charat {
+    background-color: aqua;
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+}
+
+.concat {
+    background-color: rgb(53, 177, 109);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: white;
+}
+
+.includes {
+    background-color: rgb(54, 45, 134);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: white;
+}
+
+.indexof {
+    background-color: rgb(134, 45, 115);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: white;
+}
+
+.startwith {
+    background-color: rgb(40, 16, 124);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: white;
+}
+
+.endswith {
+    background-color: rgb(238, 12, 189);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: white;
+}
+
+.match {
+    background-color: rgb(44, 155, 170);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: white;
+}
+
+.matchall {
+    background-color: rgb(204, 226, 75);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(7, 7, 7);
+}
+
+.padstart{
+    background-color: rgb(80, 206, 76);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(5, 5, 5);
+}
+
+.padend{
+    background-color: rgb(58, 37, 172);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(247, 240, 240);
+}
+
+.repeat{
+    background-color: rgb(196, 137, 48);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(12, 0, 0);
+}
+
+.replace {
+    background-color: rgb(144, 224, 52);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(12, 0, 0);
+}
+
+.replaceall {
+    background-color: rgb(178, 194, 40);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(12, 0, 0);
+}
+
+.search {
+    background-color: rgb(18, 80, 214);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(252, 248, 248);
+}
+
+.slice {
+    background-color: rgb(193, 230, 31);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(2, 2, 2);
+}
+
+.split {
+    background-color: rgb(140, 37, 150);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(247, 243, 243);
+}
+
+.substring {
+    background-color: rgb(124, 28, 41);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(247, 243, 243);
+}
+
+.trim {
+    background-color: rgb(187, 38, 58);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(247, 243, 243);
+}
+
+.numstr {
+    background-color: rgb(184, 148, 153);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(3, 0, 0);
+}
+
+.oddtimes {
+    background-color: rgb(84, 170, 105);
+    font-size: 2rem;
+    text-align: center;
+    padding: .7rem;
+    color: rgb(3, 0, 0);
+}
+
