@@ -87,11 +87,14 @@ const pSlice = document.querySelector('.slice')
 pSlice.innerHTML = 'Method slice: ' + sliceStr.slice(8, 10)
 console.log(sliceStr.slice(8, 10))
 
-//split; split a string into multiple substrings and return an array containing these subarrays
+//split; splits a string into multiple substrings and return an array containing these subarrays; it includes two params, one is the seperator and another is the limit; the seperator can be regex;
+const splitRegex = /\? |, |\. |; /g
 const splitStr = 'Go where you want to go'
 const pSplit = document.querySelector('.split')
 pSplit.innerHTML = 'Method split: ' + splitStr.split(' ')
-console.log(splitStr.split(' '))
+console.log(splitStr.split(' ', 4))
+
+console.log('Who knows that? she asked Tom; No one knows that, she answered.'.split(splitRegex))
 
 //substring; return a portion of the original string
 const subStr = 'Time is not much'
